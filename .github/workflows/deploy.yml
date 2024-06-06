@@ -6,10 +6,10 @@ on:
 
 jobs:
   web-deploy:
-    name: 🎉 Deploy
+    name: Deploy
     runs-on: self-hosted
     steps:
-    - name: 🚚 Get latest code
+    - name: Get latest code
       uses: actions/checkout@v3
 
     - name: Use Node.js 20
