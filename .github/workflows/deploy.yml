@@ -26,7 +26,8 @@ jobs:
     - name: server_conf
 #   - name: 📂 Sync files
 #     uses: SamKirkland/FTP-Deploy-Action@v4.3.4
-#     with:
+      with:
+        node-version: 20
       server: self-hosted
       username: oluwadamilare
       password: test@1234
