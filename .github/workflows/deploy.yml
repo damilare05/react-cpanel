@@ -23,13 +23,13 @@ jobs:
         npm run build
         npm run test
 
-    - name: server_conf
+#    - name: server_conf
 #   - name: 📂 Sync files
 #     uses: SamKirkland/FTP-Deploy-Action@v4.3.4
-      with:
-        node-version: 20
-      server: self-hosted
-      username: oluwadamilare
-      password: test@1234
-      protocol: tcp
-      local-dir: ./build/
+#      with:
+#        node-version: 20
+#      server: self-hosted
+#      username: oluwadamilare
+#      password: test@1234
+#      protocol: tcp
+#      local-dir: ./build/
