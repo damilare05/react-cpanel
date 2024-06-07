@@ -22,9 +22,9 @@ jobs:
         npm start
         npm test
         npm install
-        npm run build 
-        npm run test
-        npm eject     
+#        npm run build 
+#        npm run test
+#        npm eject     
 
 #    - name: server_conf
 #   - name: 📂 Sync files
